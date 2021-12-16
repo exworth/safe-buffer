@@ -1,6 +1,6 @@
 /*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 /* eslint-disable node/no-deprecated-api, no-var */
-var buffer = require('buffer')
+import buffer from 'buffer'
 var Buffer = buffer.Buffer
 
 // alternative to using Object.keys for old browsers
